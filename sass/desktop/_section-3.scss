@@ -1,0 +1,83 @@
+#ing{
+
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    justify-content: center;
+    margin-top: 20%;
+    overflow: hidden;
+
+    img{
+        width: 56%;
+        justify-self: right;
+        align-self: center;
+        //transform: translateY(8rem) rotate(25deg);
+        //transform: translate(-8rem,9rem) rotate(84deg);
+        //transform: translate(2rem, 17rem) rotate(12deg);
+    }
+}
+
+.ing_text{
+    justify-self: stretch;
+    align-self: center;
+
+    h1{
+        text-align: center;
+        margin-bottom: 8rem;
+    }
+
+    ul{
+        text-align: justify;
+        list-style: none;
+        line-height: 2rem;
+        //width: 6rem;
+        padding: 0;
+        width: 30%;
+        margin: auto;
+    }
+
+    li{
+        padding-top: 2rem;
+
+        &:nth-child(1){
+            //position: relative;
+            padding-top:0;
+        }
+
+        span{
+            text-align: left;
+            padding-right: 1rem;
+        }
+        /*&:nth-child(1)::after{
+            //position: absolute;
+            content: ' 50 ml - Mr Black ';
+            //margin-left: 3rem;
+        }
+        &:nth-child(2)::after{
+            //position: absolute;
+            content: ' 3 dash - chilli ';
+            //margin-left: 3rem;
+        }
+        &:nth-child(3)::after{
+            //position: absolute;
+            content: ' 15 ml - sugarsyrup ';
+            //margin-left: 3rem;
+        }
+        &:nth-child(4)::after{
+            //position: absolute;
+            content: ' 3 g - English Breakfast ';
+            //margin-left: 3rem;
+        }
+        &:nth-child(5)::after{
+            //position: absolute;
+            content: ' 25 g - coffee ';
+            //margin-left: 3rem;
+        }
+        &:nth-child(6)::after{
+            //position: absolute;
+            content: ' Blood of a virgin (optional) ';
+            //margin-left: 3rem;
+        }*/
+    }
+}

@@ -1,0 +1,70 @@
+#inspiration{
+    margin-top: 24rem;
+    margin-bottom: 10%;
+    display: grid;
+    grid-template-columns: 1fr 40%;
+    //grid-gap: 10%;
+    justify-content: center;
+    overflow: hidden;
+    //border: 1px solid white;
+
+    img{
+        justify-self: center;
+        width: 54%;
+        transform-origin: top;
+        //transform: rotate(-44deg);
+        transform: rotate(-39deg) translateX(-1rem);
+    }
+}
+
+.insp{
+    //border: 1px solid green;
+    position: relative;
+    //background-color: rgba($color: $secondary-bg-color, $alpha: 0.6);
+    justify-self: center;
+    align-self: center;
+    //height: 500px;
+    width: 50%;
+    padding: 1em;
+    //border-left: solid .5px $font-color;
+    //border-bottom: solid .5px $font-color;
+    //box-shadow: 34px -37px 24px -9px #bb9b47;
+
+    h1{
+        margin-bottom: 4rem;
+    }
+
+    &::after{
+        content: '';
+        position: absolute;
+        //z-index: -1;
+        height: 300px;
+        width: 500px;
+        //background-color: transparent;
+        top: -3rem;
+        right: -19rem;
+        border-top: 1px solid $main-color; 
+        border-right: 1px solid $main-color; 
+        opacity: .7;
+
+        filter: blur(3px);
+        //box-shadow: 0 0 10px 5px $font-color;
+    }
+
+    &::before{
+        content: '';
+        position: absolute;
+        //z-index: -1;
+        height: 300px;
+        width: 500px;
+        //background-color: transparent;
+        top: 5rem;
+        left: -6rem;
+        border-bottom: 1px solid $main-color; 
+        border-left: 1px solid $main-color; 
+        opacity: .7;
+
+        filter: blur(3px);
+    }
+
+}

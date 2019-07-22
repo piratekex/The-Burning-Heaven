@@ -1,0 +1,39 @@
+
+header{
+    height: 100vh;
+    position:relative;
+    z-index:1;
+
+    overflow: hidden;
+    object-fit: scale-down;
+
+
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 27%, 100% 100%, 85% 86%, 49% 99%, 20% 92%, 0 100%, 0% 35%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 27%, 100% 100%, 85% 86%, 49% 99%, 20% 92%, 0 100%, 0% 35%, 0 0);
+    
+    .video_head{
+        position:absolute;
+        z-index: -1;
+        width: 100%;
+    }
+}
+
+
+
+.title{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-family: $heading;
+    
+    h1{
+        //color: $third-color;
+        font-size: 8rem;
+        text-transform: uppercase;
+        text-align: center;
+        position: relative;
+        
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    }
+
+}

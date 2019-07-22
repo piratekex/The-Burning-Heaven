@@ -1,0 +1,52 @@
+#container{
+    width: 100%;
+}
+
+.title{
+    left: 15%;
+
+   /* h1{
+        font-size: 5rem;
+    }*/
+}
+
+.about_text{
+    /*&::after{
+        top: 1rem;
+        right: -1rem;
+
+    }*/
+    &::before{
+        top: 10rem;
+        left: -5rem;
+    }
+}
+
+#ing{
+    grid-template-columns: 20% 75%;
+
+    img{
+        width: 100%;
+    }
+}
+
+#recipe{
+    article{
+    &::before{
+        top: 14rem;
+        left: -12rem;
+    }
+    &::after{
+
+        top: -1rem;
+        right: -12rem;
+        
+    }
+}
+}
+
+#video{
+    video{
+        width: 90%;
+    }
+}
