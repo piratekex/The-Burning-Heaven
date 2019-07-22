@@ -1,0 +1,29 @@
+.about_text{
+    &::after{
+        display: none;
+    }
+    &::before{
+        display: none;
+    }
+}
+
+.insp{
+    &::before{
+        display: none;
+    }
+    &::after{
+        display: none;
+    }
+}
+
+
+#recipe{
+    article{
+    &::before{
+       display: none;
+    }
+    &::after{
+        display: none;
+    }
+}
+}

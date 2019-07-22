@@ -1,0 +1,61 @@
+.title{
+
+        top: 30%;
+
+    h1{
+        font-size: 4rem;
+    }
+}
+
+#about{
+    grid-template-columns: 40% 1fr;
+
+    img{
+        width: 35%;
+    }
+}
+
+.about_text{
+    width: 80%;
+}
+
+.insp{
+    width: 70%;
+}
+
+#ing{
+    grid-template-columns: 30% 1fr;
+    
+    img{
+        justify-self: center;
+        width: 100%;
+    }
+}
+
+.ing_text{
+    width: 75%;
+    text-align: left;
+    justify-self: center;
+
+    h1{
+        text-align: center;
+    }
+
+    ul{
+        width: 52%;
+    }
+}
+
+#recipe{
+    grid-template-columns: 90%;
+}
+
+footer{
+    ul{
+        font-size: 1.7rem;
+
+        a{
+            padding: .5rem;
+        }
+    }
+}

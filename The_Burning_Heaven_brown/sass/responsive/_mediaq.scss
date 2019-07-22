@@ -1,0 +1,31 @@
+@media only screen and (max-width: $first-break) {
+    @import 'break1660';
+  }
+
+@media only screen and (max-width: $second-break) {
+    @import 'break1520';
+}
+
+@media only screen and (max-width: $third-break) {
+    @import 'break1270';
+}
+
+@media only screen and (max-width: $four-break) {
+    @import 'break1060';
+}
+
+@media only screen and (max-width: $five-break) {
+    @import 'break940';
+}
+
+@media only screen and (max-width: $six-break) {
+    @import 'break740';
+}
+
+@media only screen and (max-width: $seven-break) {
+    @import 'break580';
+}
+
+@media only screen and (max-width: $eight-break) {
+    @import 'break470';
+}

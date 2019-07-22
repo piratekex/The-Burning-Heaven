@@ -1,0 +1,54 @@
+.title{
+    left: 22%;
+
+    h1{
+        font-size: 5rem;
+    }
+}
+
+.about_text{
+    &::after{
+        top: 1rem;
+        right: -1rem;
+
+    }
+    &::before{
+        top: 9.5rem;
+        left: -5rem;
+    }
+}
+
+.insp{
+    &::before{
+        left: -3rem;
+    }
+}
+
+#ing{
+    grid-template-columns: 30% 1fr;
+
+    img{
+        width: 80%;
+    }
+}
+
+#recipe{
+    article{
+    &::before{
+        top: 15rem;
+        left: -9rem;
+    }
+    &::after{
+
+        top: -4rem;
+        right: -9rem;
+        
+    }
+}
+}
+
+#video{
+    video{
+        width: 80%;
+    }
+}

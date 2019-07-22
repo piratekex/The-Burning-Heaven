@@ -1,0 +1,23 @@
+
+header{
+    clip-path: none;
+}
+
+.title{
+    left: 10%;
+}
+
+.insp{
+    &::after{
+        top: 0;
+        right: -9rem;
+    }
+}
+
+
+
+#video{
+    video{
+        width: 70%;
+    }
+}

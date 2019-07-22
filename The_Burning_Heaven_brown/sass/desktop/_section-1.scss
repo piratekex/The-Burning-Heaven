@@ -1,0 +1,81 @@
+#about{
+    margin-top: 12em;
+    margin-bottom: 6em;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    //grid-gap: 10%;
+    justify-content: center;
+    overflow: hidden;
+    
+    img{
+        width: 26%;
+        justify-self: center;
+        //transform: translate(-1rem, 6rem);
+        transform: translate(-9rem, -3rem) rotate(-50deg);
+    }
+
+}
+
+/*.syphon_img{
+    //border: 1px solid white;
+    justify-self: end;
+    justify-content: center;
+    padding-top: 4em;
+
+    img{
+        width: 100%;
+    }
+}*/
+
+
+
+.about_text{
+    position: relative;
+    //background-color: rgba($color: $secondary-bg-color, $alpha: 0.6);
+    justify-self: center;
+    align-self: center;
+    //height: 500px;
+    width: 60%;
+    padding: 1rem;
+    //border-left: solid .5px $font-color;
+    //border-bottom: solid .5px $font-color;
+    //box-shadow: 34px -37px 24px -9px #bb9b47;
+    //border: 1px solid white;
+
+    h1{
+        margin-bottom: 4rem;
+    }
+
+    &::after{
+        content: '';
+        position: absolute;
+        //z-index: -1;
+        height: 300px;
+        width: 500px;
+        //background-color: transparent;
+        top: -3rem;
+        right: -4rem;
+        border-top: 1px solid $main-color; 
+        border-right: 1px solid $main-color; 
+        opacity: .7;
+
+        filter: blur(3px);
+        //box-shadow: 0 0 10px 5px $font-color;
+    }
+
+    &::before{
+        content: '';
+        position: absolute;
+        //z-index: -1;
+        height: 300px;
+        width: 500px;
+        //background-color: transparent;
+        top: 9rem;
+        left: -12rem;
+        border-bottom: 1px solid $main-color; 
+        border-left: 1px solid $main-color; 
+        opacity: .7;
+
+        filter: blur(3px);
+    }
+}

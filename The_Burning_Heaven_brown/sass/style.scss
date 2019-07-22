@@ -1,0 +1,17 @@
+//variables
+
+@import 'variables/color';
+@import 'variables/fonts';
+@import 'variables/breakpoints';
+
+//Page itsef
+
+@import 'desktop/basic';
+@import 'desktop/header';    //header
+@import 'desktop/section-1'; //about
+@import 'desktop/section-2'; //inspiration
+@import 'desktop/section-3'; //ingradients
+@import 'desktop/section-4'; //recipe
+@import 'desktop/section-5'; //video
+@import 'desktop/footer';    //footer
+@import 'responsive/mediaq';    //media queris
